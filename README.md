@@ -71,7 +71,7 @@ scala>
 
 SparkUI:
 
-![SparkUI](doc/spark-shell.png "SparkUI")
+![SparkUI](https://raw.githubusercontent.com/Renien/docker-spark-stand-alone/master/doc/spark-shell.png "SparkUI")
 
 ## License
 [Docker Spark Standalone](https://github.com/Renien/docker-spark-stand-alone) is released under the [MIT](https://opensource.org/licenses/MIT) © [Renien](https://github.com/Renien).
