@@ -41,7 +41,7 @@ RUN wget -c --no-cookies --no-check-certificate --header "Cookie: oraclelicense=
 
 RUN tar xvfz $(pwd)/server-jre-${JAVA_MAJOR_VERSION}u${JAVA_UPDATE_VERSION}-linux-x64.tar.gz -C /usr/ \
   && ln -s $JAVA_HOME /usr/java \
-  && rm -rf $JAVA_HOME/man
+  && rm -rf $JAVA_HOME/man \
   && rm $(pwd)/server-jre-${JAVA_MAJOR_VERSION}u${JAVA_UPDATE_VERSION}-linux-x64.tar.gz
 
 # HADOOP
