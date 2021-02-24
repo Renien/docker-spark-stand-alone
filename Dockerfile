@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:buster
 MAINTAINER "Renien Joseph <renien.john@gmail.com>"
 
 RUN apt-get update \
